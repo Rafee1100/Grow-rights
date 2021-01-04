@@ -4,81 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <div class="topnav-right">
-          <a href="#search">Search</a>
-          <a href="#about">About</a>
+    <header>
+        <img src="./images/logo.png" alt="" class="logo">
+        <nav>
+            <ul class="nav-link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Our Teams</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="contact"><button>Donate</button></a>
+    </header>
+    <section class="top-banner">
+        <div class="half-width">
+            <img src="./images/photo1.jpg" alt="">
         </div>
-      </div>
-    <div id="wall">
-        <!-- <img src="first.jpg" alt=""> -->
-        <h1>57 cents a day,</h1>
-        <h2>saves a mother,</h2>
-        <h3>saves a nation.</h3>
-    </div>
-    <div id="secondpage">
-        <div class="project">
-            <h4>Ensuring Proper Diet to Pregnant</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, perspiciatis.</p>
+        <div class="half-width">
+            <br>
+            <br><br>
+            <h1>57 cents a Day</h1>
+            <h1><span class="mother-highlight"> &nbsp Saves a Mother,</span></h1>
+            <h1>Saves a Nation.</h1>
         </div>
-        <div class="project">
-            <h4>Free Checkup For Mom</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, fuga.</p>
+    </section>
+    <section class="experience">
+        <h1>Our Programs</h1>
+        <div class="single-experience" id="full-stack">
+            <h3>Ensuring Proper diet</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non iusto temporibus quaerat eos, iure
+                doloribus ut porro quae distinctio.</p>
         </div>
-        <div class="project">
-            <h4>Seminars On Health Care</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, incidunt.</p>
-        </div>
-    </div>
+        <div id="baby-web" class="single-experience">
 
-    <div id="mission">
-        <h3>Our Mission & Vission</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, dolor!</p>
-    </div>
+            <h3>Free Medical Check Up</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione recusandae aut cupiditate tenetur
+                tempore? Earum cum perferendis nobis hic molestias!</p>
 
-    <div id="team">
-        <div class="anu">
-            <img src="anu.jpeg" alt="">
-            <h5>Anupoma Debnath</h5>
-            <p>Lorem ipsum dolor sit amet.</p>
         </div>
-        <div class="rafee">
-            <img src="propic.png" alt="">
-            <h5>Abdullah Al Rafee</h5>
-            <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="suprova">
-            <img src="supro.jpeg" alt="">
-            <h5>Suprova Haque</h5>
-            <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-    </div>
-
-    <div id="country">
-        <h3>Countries We are in</h3>
-        <p class="country">
-            27+
-        </p>
-    </div>
-    <div id="donate">
-        <p>Our Prodram is to ensure diet for each and everyone so you can donate our program and be a part of Us</p>
-        <h5>Please Fill the form</h5>
-        <form action="">
-            <span class="name">Name:<input type="text" name="Enter your Name" id="name"></span>
-            <span class="age"> Age<input type="number"></span>
-        </form>
-
-    </div>
+    </section>
 </body>
 
 </html>
